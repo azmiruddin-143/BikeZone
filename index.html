@@ -1,22 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
     <title>Bike Zone</title>
     <!--tailwindcss cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
-     <!-- Daisyui cdn -->
+    <!-- Daisyui cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 
 
 </head>
 
-<body>
+<body class="font-poppins">
 
-     <h1>hello word</h1>
+        <!-- navbar code start -->
+ 
+        <div class="navbar bg-base-100  ">
+            <div class="navbar bg-base-100 px-0 xl:px-24 2xl:px-40">
+            <div class="navbar-start flex-1">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-8 w-8"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>News</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl sm:text-4xl text-[#000000]">Bike Zone</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-lg text-[#000000]">
+                <li><a>Home</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>News</a></li>
+                  <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div>
+              <a class="btn bg-[#E76F51] hover:bg-[#ffffff] hover:text-[black] hover:shadow-2xl text-[white] font-bold px-5 sm:px-5">Login</a>
+            </div>
+          </div>
+
+          </div>
+
+           <!-- navbar code end -->
+
+
+
+
+
+         <!-- slider cerasol start  -->
+
+           <div class="xl:w-[81%] lg:w-[95%] sm:w-[94%] mx-auto">
+            <div class="carousel xl:h-[550px]">
+                <div id="slide1" class="carousel-item relative w-full bg-[#fdf0ed]">
+                    <div class="flex flex-col md:flex-row py-7 justify-center items-center mx-auto">
+                        <!-- left side -->
+                        <div class="md:w-[50%] w-[100%] pl-5">
+                            <h1 class="text-[black] text-3xl md:text-5xl xl:text-7xl w-[70%] lg:w-[85%] md:pb-8">Ride-on R15 V4 with Smile</h1>
+                            <p class="text-[#00000093] lg:w-[80%] w-[100%] pt-5 md:pt-0">Amet minim mollit non deserunt ullamco 
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button class="bg-[#E76F51] py-3 px-7 my-5 md:my-9 hover:bg-[#ffffff] hover:text-[black] hover:shadow-2xl rounded-lg font-bold text-[white]">Purchase</button>
+                        </div>
+                             <!-- right-site -->
+                        <div class="flex justify-start">
+                            <img class="md:w-full w-[300px]" src="images/slider/bike1.png" alt="">
+                        </div>
+                    </div>
+                              
+                    <!-- slide-icon -->
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle shadow-xl bg-[#ffffff] hover:bg-[#E76F51]">❮</a>
+                    <a href="#slide2" class="btn btn-circle shadow-xl bg-[#ffffff] hover:bg-[#E76F51]">❯</a>
+                  </div>
+                </div>
+                 
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="flex flex-col md:flex-row py-7 justify-center items-center mx-auto">
+                        <!-- left side -->
+                        <div class="md:w-[50%] w-[100%] pl-5">
+                            <h1 class="text-[black] text-3xl md:text-5xl xl:text-7xl w-[70%] lg:w-[85%] md:pb-8">Ride-on R15 V4 with Smile</h1>
+                            <p class="text-[#00000093] lg:w-[80%] w-[100%] pt-5 md:pt-0">Amet minim mollit non deserunt ullamco 
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button class="bg-[#E76F51] py-3 px-7 my-5 md:my-9 hover:bg-[#ffffff] hover:text-[black] hover:shadow-2xl rounded-lg font-bold text-[white]">Purchase</button>
+                        </div>
+                             <!-- right-site -->
+                        <div class="flex justify-start">
+                            <img class="md:w-full w-[300px]" src="images/slider/bike1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      <a href="#slide1" class="btn btn-circle">❮</a>
+                      <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                  </div>
+                  <div id="slide3" class="carousel-item relative w-full">
+
+                    <div class="flex flex-col md:flex-row py-7 justify-center items-center mx-auto">
+                        <!-- left side -->
+                        <div class="md:w-[50%] w-[100%] pl-5">
+                            <h1 class="text-[black] text-3xl md:text-5xl xl:text-7xl w-[70%] lg:w-[85%] md:pb-8">Ride-on R15 V4 with Smile</h1>
+                            <p class="text-[#00000093] lg:w-[80%] w-[100%] pt-5 md:pt-0">Amet minim mollit non deserunt ullamco 
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button class="bg-[#E76F51] py-3 px-7 my-5 md:my-9 hover:bg-[#ffffff] hover:text-[black] hover:shadow-2xl rounded-lg font-bold text-[white]">Purchase</button>
+                        </div>
+                             <!-- right-site -->
+                        <div class="flex justify-start">
+                            <img class="md:w-full w-[300px]" src="images/slider/bike1.png" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      <a href="#slide2" class="btn btn-circle">❮</a>
+                      <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                  </div>
+                  <div id="slide4" class="carousel-item relative w-full">
+                 
+                    <div class="flex flex-col md:flex-row py-7 justify-center items-center mx-auto">
+                        <!-- left side -->
+                        <div class="md:w-[50%] w-[100%] pl-5">
+                            <h1 class="text-[black] text-3xl md:text-5xl xl:text-7xl w-[70%] lg:w-[85%] md:pb-8">Ride-on R15 V4 with Smile</h1>
+                            <p class="text-[#00000093] lg:w-[80%] w-[100%] pt-5 md:pt-0">Amet minim mollit non deserunt ullamco 
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                            <button class="bg-[#E76F51] py-3 px-7 my-5 md:my-9 hover:bg-[#ffffff] hover:text-[black] hover:shadow-2xl rounded-lg font-bold text-[white]">Purchase</button>
+                        </div>
+                             <!-- right-site -->
+                        <div class="flex justify-start">
+                            <img class="md:w-full w-[300px]" src="images/slider/bike1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      <a href="#slide3" class="btn btn-circle">❮</a>
+                      <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                  </div>
+                 
+
+              </div>
+           </div>
+
+            <!-- <hr class="m-5 w-[20%]
+             mx-auto hidden lg:block border-[red]"> -->
+        <!-- slider cerasol end  -->
+
+
+
+
+
 </body>
 
 </html>
